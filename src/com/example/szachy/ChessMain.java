@@ -245,11 +245,13 @@ public class ChessMain {
 
 	private void makeMove(int x0, int y0, int x1, int y1, int type) {
 		switch (type) {
+		//standard move
 		case 1:
 			temp = chessboard[x1][y1];
 			chessboard[x1][y1] = chessboard[x0][y0];
 			chessboard[x0][y0] = null;
 			break;
+		//castling
 		case 2:
 			int sign = 1;
 			if (x1 == 7)

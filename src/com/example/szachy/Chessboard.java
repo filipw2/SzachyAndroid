@@ -63,6 +63,7 @@ public final class Chessboard extends View {
 		select = BitmapFactory.decodeResource(getResources(), R.drawable.b);
 	}
 
+	//choose figure dialog (pawn promotions)
 	public void dialog() {
 		AlertDialog.Builder builder = new AlertDialog.Builder(context);
 
@@ -136,7 +137,7 @@ public final class Chessboard extends View {
 				mTiles[c][r].draw(canvas);
 
 				drawPiece(c, r, xCoord, yCoord, canvas);
-				// dialog(context);
+				
 				drawText(canvas,2);
 				if (chess.isInCheck())
 					drawText(canvas,1);
@@ -190,6 +191,7 @@ public final class Chessboard extends View {
 				for (int r = 0; r < ROWS; r++) {
 					tile = mTiles[c][r];
 					if (tile.isTouched(x, y)) {
+						
 						tile.handleTouch();
 						chess.handleTouch(c, r);
 
