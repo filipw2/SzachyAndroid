@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Szachy</string>
+    <string name="action_ng">New Game</string>
+	<string name="action_exit">Exit</string>
+	
+</resources>
