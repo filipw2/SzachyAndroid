@@ -43,6 +43,9 @@ public class ChessMain {
 		passant[1]=10;
 		playerTurn = 'W';
 		
+		for (int i = 0; i < 8; i++)	
+			for (int j = 0; j < 8; j++)	
+				chessboard[i][j] = null;
 		
 		for (int i = 0; i < 4; i++)		// castling is allowed
 			castlingT[i] = true;

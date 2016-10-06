@@ -30,21 +30,13 @@ public final class R {
         public static final int bqueen=0x7f020005;
         public static final int brook=0x7f020006;
         public static final int ic_launcher=0x7f020007;
-        public static final int sample_0=0x7f020008;
-        public static final int sample_1=0x7f020009;
-        public static final int sample_2=0x7f02000a;
-        public static final int sample_3=0x7f02000b;
-        public static final int sample_4=0x7f02000c;
-        public static final int sample_5=0x7f02000d;
-        public static final int sample_6=0x7f02000e;
-        public static final int sample_7=0x7f02000f;
-        public static final int w=0x7f020010;
-        public static final int wbishop=0x7f020011;
-        public static final int wking=0x7f020012;
-        public static final int wknight=0x7f020013;
-        public static final int wpawn=0x7f020014;
-        public static final int wqueen=0x7f020015;
-        public static final int wrook=0x7f020016;
+        public static final int w=0x7f020008;
+        public static final int wbishop=0x7f020009;
+        public static final int wking=0x7f02000a;
+        public static final int wknight=0x7f02000b;
+        public static final int wpawn=0x7f02000c;
+        public static final int wqueen=0x7f02000d;
+        public static final int wrook=0x7f02000e;
     }
     public static final class id {
         public static final int RelativeLayout1=0x7f080000;
